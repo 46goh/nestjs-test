@@ -6,5 +6,10 @@
   "author": "46goh <4690goh@gmail.com>",
   "license": "MIT",
   "private": true,
-  "workspaces": ["backend", "frontend"]
+  "scripts": {
+    "frontend:dev": "yarn workspace frontend dev"
+  },
+  "workspaces": {
+    "packages": ["packages/**"]
+  }
 }
